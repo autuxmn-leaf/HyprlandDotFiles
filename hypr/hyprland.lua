@@ -15,6 +15,7 @@ local ipc = "noctalia msg"
 
 hl.on("hyprland.start", function ()
 	hl.exec_cmd("noctalia")
+	hl.exec_cmd("hypridle")
 end)
 --------------
 -- MONITORS --
@@ -39,7 +40,8 @@ hl.bind("XF86AudioMute", hl.dsp.exec_cmd(ipc .. " volume-mute"))
 hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd(ipc .. " brightness-up"))
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd(ipc .. " brightness-down"))
 hl.bind("SUPER+T", hl.dsp.exec_cmd("foot"))
-hl.bind("SUPER+Q", hl.dsp.window.kill())
+hl.bind("SUPER+Q", hl.dsp.window.close())
+hl.bind("SUPER+SHIFT+Q", hl.dsp.window.kill())
 hl.bind("SUPER+W", hl.dsp.exec_cmd("firefox"))
 hl.bind("SUPER+E", hl.dsp.exec_cmd("nautilus"))
 hl.bind("SUPER+D",hl.dsp.window.fullscreen({mode = "maximized"}))
