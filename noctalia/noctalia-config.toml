@@ -8,6 +8,11 @@ order = [ "default" ]
     layer = "overlay"
     margin_edge = 0
     margin_ends = 0
+    radius = 9
+    radius_bottom_left = -10
+    radius_bottom_right = -10
+    radius_top_left = -80
+    radius_top_right = -80
 
         [[bar.default.capsule_group]]
         fill = "surface_variant"
@@ -70,6 +75,43 @@ widget_order = [ "lockscreen-login-box@eDP-1" ]
 
 [shell]
 font_family = "JetBrainsMono Nerd Font"
+settings_show_advanced = true
+
+    [[shell.session.actions]]
+    action = "lock"
+    command = "hyprlock"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "1"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "logout"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "2"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "lock_and_suspend"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "3"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "reboot"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "4"
+    variant = "default"
+
+    [[shell.session.actions]]
+    action = "shutdown"
+    countdown_seconds = 0.0
+    enabled = true
+    shortcut = "5"
+    variant = "destructive"
 
 [theme]
 builtin = "Catppuccin"
