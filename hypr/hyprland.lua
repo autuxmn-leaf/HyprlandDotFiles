@@ -68,7 +68,10 @@ hl.bind("SUPER+ALT+0", hl.dsp.window.move({workspace=10,follow=false}))
 hl.bind("SUPER+D",hl.dsp.window.fullscreen({mode = "maximized"}))
 hl.bind("SUPER+F",hl.dsp.window.fullscreen())
 hl.bind("SUPER+mouse:273", hl.dsp.window.resize())
-
+hl.bind("SUPER+mouse:272", hl.dsp.window.drag())
+hl.bind("SUPER+ALT+Space", hl.dsp.window.float())
+hl.bind("SUPER+SHIFT+P", hl.dsp.window.pin())
+hl.bind("SUPER+L", hl.dsp.exec_cmd("loginctl lock-session"))
 ------------
 -- CONFIG --
 ------------

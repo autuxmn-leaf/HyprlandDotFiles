@@ -79,7 +79,7 @@ settings_show_advanced = true
 
     [[shell.session.actions]]
     action = "lock"
-    command = "hyprlock"
+    command = "loginctl lock-session"
     countdown_seconds = 0.0
     enabled = true
     shortcut = "1"
@@ -94,6 +94,7 @@ settings_show_advanced = true
 
     [[shell.session.actions]]
     action = "lock_and_suspend"
+    command = "systemctl suspend"
     countdown_seconds = 0.0
     enabled = true
     shortcut = "3"
