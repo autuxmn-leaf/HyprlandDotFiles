@@ -100,7 +100,8 @@ hl.config({
 	input = {
 		touchpad = {
 			clickfinger_behavior = true,
-			natural_scroll = true
+			natural_scroll = true,
+			disable_while_typing = false
 		},
 		sensitivity = -0.2,
 		accel_profile = "flat"
