@@ -132,6 +132,6 @@ hl.curve(
 hl.animation({
 	leaf = "windows",
 	enabled = true,
-	speed = 1,
+	speed = 3,
 	bezier = "penis"
 })
