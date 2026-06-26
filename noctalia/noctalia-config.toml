@@ -129,13 +129,13 @@ wallpaper_scheme = "m3-content"
 directory = "/home/autumn/Pictures"
 
     [wallpaper.default]
-    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
+    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
 
     [wallpaper.last]
-    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
+    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
+    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
 
 [widget.brightness]
 show_label = false
