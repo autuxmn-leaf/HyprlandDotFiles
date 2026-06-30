@@ -73,6 +73,9 @@ widget_order = [ "lockscreen-login-box@eDP-1" ]
         input_radius = 6.0
         show_login_button = true
 
+[plugins]
+enabled = []
+
 [shell]
 font_family = "JetBrainsMono Nerd Font"
 settings_show_advanced = true
@@ -123,19 +126,18 @@ wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "foot", "gtk3", "gtk4", "hyprland", "kcolorscheme", "qt" ]
-    community_ids = [ "discord" ]
 
 [wallpaper]
 directory = "/home/autumn/Pictures"
 
     [wallpaper.default]
-    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
+    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
 
     [wallpaper.last]
-    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
+    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/autumn/Pictures/wallhaven-ox1r3m.png"
+    path = "/home/autumn/Pictures/wallhaven-2k33rx_2560x1600.png"
 
 [widget.brightness]
 show_label = false
